@@ -7,6 +7,9 @@ import battleship.exceptions.TooCloseException;
 import java.util.Optional;
 import java.util.Scanner;
 
+/**
+ * Single console implementation of the ClassicBattleship
+ */
 public class ClassicBattleshipConsole extends ClassicBattleship {
 
     Scanner scanner;
@@ -15,7 +18,7 @@ public class ClassicBattleshipConsole extends ClassicBattleship {
         this.scanner = scanner;
     }
 
-    //TODO:: replace to bundle
+    //TODO:: replace with bundle
     private String nextTurnMessage = "Press Enter and pass the move to another player\n";
 
     @Override

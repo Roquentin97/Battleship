@@ -16,8 +16,7 @@ public class BattleField {
     private Square[][] field;
     private int side;
 
-    public BattleField() {
-        side = 10;
+    public BattleField(int side) {
         field = new Square[side][side];
         initializeField();
     }
@@ -233,27 +232,6 @@ public class BattleField {
                 field[row][col] = Square.FOG;
             }
         }
-    }
-
-    private static void printField(BattleField field) {
-        for (int row = 0; row < field.side; row++) {
-            for (int col = 0; col < field.side; col++) {
-                String square = "-";
-                switch (field.field[row][col]) {
-                    case FOG:
-                        square = "F";
-                        break;
-                    case ADJACENT:
-                        square = "A";
-                        break;
-                    case OCCUPIED:
-                        square = "O";
-                }
-                System.out.print(square + " ");
-            }
-            System.out.println();
-        }
-        System.out.println();
     }
 
 

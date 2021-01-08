@@ -2,6 +2,10 @@ package battleship;
 
 import java.util.List;
 
+/**
+ * Base abstract class for the came using Template Method Pattern
+ * to specify main workflow
+ */
 public abstract class Battleship {
 
     protected BattleField fieldA;

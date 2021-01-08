@@ -1,7 +1,9 @@
 package battleship;
 
-import javax.naming.OperationNotSupportedException;
 
+/**
+ * Class representing coordinates on the field (2d array)
+ */
 class Coordinates {
     private int row;
     private int col;

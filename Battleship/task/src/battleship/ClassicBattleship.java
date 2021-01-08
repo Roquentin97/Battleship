@@ -3,6 +3,10 @@ package battleship;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Abstract class specifying rules of the classic battleship game:
+ * the number and size of participating ships and 10 X 10 field
+ */
 public abstract class ClassicBattleship extends Battleship {
 
     @Override
@@ -18,10 +22,10 @@ public abstract class ClassicBattleship extends Battleship {
 
     @Override
     protected void createBattlefield() {
-        fieldA = new BattleField();
+        fieldA = new BattleField(10);
         playerA.setField(fieldA);
 
-        fieldB = new BattleField();
+        fieldB = new BattleField(10);
         playerB.setField(fieldB);
     }
 

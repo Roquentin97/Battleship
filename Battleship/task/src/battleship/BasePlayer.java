@@ -2,14 +2,18 @@ package battleship;
 
 import java.util.List;
 
-public class ConsolePlayer implements Player {
+/**
+ * Basic implementation implementation of the
+ * @link Player interface
+ */
+public class BasePlayer implements Player {
     private String name;
     private BattleField field;
     private List<Ship> fleet;
     private Player foe;
 
 
-    public ConsolePlayer(String name) {
+    public BasePlayer(String name) {
         this.name = name;
     }
 
