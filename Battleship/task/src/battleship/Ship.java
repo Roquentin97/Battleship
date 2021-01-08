@@ -1,9 +1,11 @@
 package battleship;
 
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 
+/**
+ * Basic class for a ship
+ */
 public class Ship {
 
     private String name;
@@ -14,7 +16,7 @@ public class Ship {
 
     private List<Ship> fleet;
 
-    public Ship (String name, int length) {
+    public Ship(String name, int length) {
         this.name = name;
         this.length = length;
         health = length;

@@ -2,6 +2,9 @@ package battleship;
 
 import java.util.List;
 
+/**
+ * Interface representing a player of the game
+ */
 public interface Player {
 
     public String getName();
