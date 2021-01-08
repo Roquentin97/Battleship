@@ -1,3 +1,3 @@
 ## Battleship
 
-Implementation of the JetBrains Academy`s assignment ["Battleship"](https://hyperskill.org/projects/125?track=1)
+Solution of the JetBrains Academy`s project ["Battleship"](https://hyperskill.org/projects/125?track=1)
